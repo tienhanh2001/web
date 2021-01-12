@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="java.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<p>Number:</p>
+	<input type="text" name="" value="" placeholder="" id="number">
+	<button type="" onclick="checkNumber()" class="tinh">Cộng</button>
+	<script>
+		function checkNumber(){
+			var number= parseInt(document.getElementById('number').value);
+				if (number=='') {
+					alert('Dữ liệu không được để trống. Vui lòng nhập lại!!!');
+				}else if (isNaN(number)) {
+					alert("Dữ liệu phải là số !!!");
+				}else if (number<0) {
+					alert("Dữ liệu không âm ");
+				}else{
+					document.write(number);
+				}
+		}
+	</script>
+</body>
+</html>

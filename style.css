@@ -1,0 +1,121 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'arial';
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear-both{
+	clear: both;
+}
+
+li{
+	list-style-type: none;
+}
+
+body{
+	background-image: url('image/bg.jpg');
+}
+
+#wrapper{
+	width: 1024px;
+	min-height: 1000px;
+	margin: 0px auto;
+	margin-top: 28px;
+	margin-bottom: 0px;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+#header{
+	width: 100%;
+}
+
+#header #logo{
+	padding-top: 27px;
+	float: left;
+}
+
+#header #hotline{
+	padding-top: 34px;
+	float: right;
+}
+
+#header #hotline a{
+	color: #307814;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#header #hotline ul li{
+	list-style-image: url('image/icon_phone.png');
+}
+#banner{
+	width: 1001px;
+	height: 334px;
+	margin-top: 26px;
+}
+#main{
+	display: flex;
+}
+#main #left{
+	width: 260px;
+	height: 440px;
+	background-color: #307814;
+}
+
+#menu ul {
+  background: #307814;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+#menu li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ffffff;
+  padding: 0 1em;
+}
+#menu li a {
+  text-decoration: none;
+  color: #ffffff ;
+  font-weight: bold;
+  display: block;
+}
+#menu li:hover {
+  background: #1d490c;
+}
+#main #left input{
+	width: 230px;
+	height: 30px;
+	margin: 15px 12px;
+	border-radius: 5px;
+
+}
+#right{
+	padding-left: 60px;
+	padding-right: 5px;
+}
+#pro{
+	display: flex;
+}
+.item{
+	padding-left:65px; 
+}
+#footer{
+	padding-left: 440px;
+	padding-top: 40px;
+	display: flex;
+}
+#footer #text{
+	padding-left: 20px;
+	color: #696969;
+
+}
+
